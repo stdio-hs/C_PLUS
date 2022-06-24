@@ -16,5 +16,5 @@
  - PRACTICE_02 : Basic Triangle Calculation // ( 직각삼각형 기본 계산 _ 넓이/둘레 )
  - PRACTICE_03 : Basic Cylinder Calculation // ( 원기둥 기본 계산 _ 겉넓이/부피 )
  - PRACTICE_04 : Student Grades (average/max/min) // ( 학생성적 _ 평균/최대/최소 )
- - PRACTICE_05 : 
+ - PRACTICE_05 : Time Conversion // ( 초 >> 시분초 )
  - PRACTICE_06 : 
