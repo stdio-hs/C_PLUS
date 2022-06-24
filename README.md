@@ -18,3 +18,5 @@
  - PRACTICE_04 : Student Grades (average/max/min) // ( 학생성적 _ 평균/최대/최소 )
  - PRACTICE_05 : Time Conversion // ( 초 >> 시분초 )
  - PRACTICE_06 : Basic Calculation // ( 덧셈/뺄셈/곱셈/나눗셈)
+ - PRACTICE_07 : 
+ - PRACTICE_08 : 
