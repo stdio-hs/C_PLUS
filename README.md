@@ -19,6 +19,6 @@
  - PRACTICE_05 : Time Conversion // ( 초 >> 시분초 )
  - PRACTICE_06 : Basic Calculation // ( 덧셈/뺄셈/곱셈/나눗셈)
  - PRACTICE_07 : Output According To Unit // ( 단위에 따라 차례로 출력 )
- - PRACTICE_08 : 
+ - PRACTICE_08 : Basic Date Calcualtion // ( 날짜 _ 몇번째 날 / 요일 ) 
  - PRACTICE_09 : 
  - PRACTICE_10 : 
