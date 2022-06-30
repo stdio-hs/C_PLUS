@@ -20,8 +20,7 @@
  - PRACTICE_06 : Basic Calculation // ( 덧셈/뺄셈/곱셈/나눗셈)
  - PRACTICE_07 : Output According To Unit // ( 단위에 따라 차례로 출력 )
  - PRACTICE_08 : Basic Date Calcualtion // ( 날짜 _ 몇번째 날 / 요일 ) 
- - PRACTICE_09 : 
- - PRACTICE_10 : 
-
-- PRACTICE_11 : 
+ - PRACTICE_09 : Bitwise Calcualtion // ( 16진수 데이터 표현 변환 / Bit-wise 계산 )
+ - PRACTICE_10 : Integer Overflow Underflow // ( 정수 _ 최대값 / 최소값 / Overflow / Underflow )
+ - PRACTICE_11 : 
  - PRACTICE_12 : 
