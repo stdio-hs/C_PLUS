@@ -1,15 +1,15 @@
 /**
 
-ÆÄÀÏ¸í: PRACTICE_11
+íŒŒì¼ëª…: PRACTICE_11
 
-ÇÁ·Î±×·¥ÀÇ ¸ñÀû ¹× ±âº»±â´É : ASCII code¸¦ ÀÔ·Â¹Þ°í, ±× ASCII code°¡ ¹®ÀÚ/¼ýÀÚ/ÀÚÀ½/¸ðÀ½/±âÈ£ ÀÎÁö ÆÇº°ÇÏ´Â ÇÁ·Î±×·¥
+í”„ë¡œê·¸ëž¨ì˜ ëª©ì  ë° ê¸°ë³¸ê¸°ëŠ¥ : ASCII codeë¥¼ ìž…ë ¥ë°›ê³ , ê·¸ ASCII codeê°€ ë¬¸ìž/ìˆ«ìž/ìžìŒ/ëª¨ìŒ/ê¸°í˜¸ ì¸ì§€ íŒë³„í•˜ëŠ” í”„ë¡œê·¸ëž¨
 
-ÇÁ·Î±×·¥ ÀÛ¼ºÀÚ : ÀÌÇö¼º
+í”„ë¡œê·¸ëž¨ ìž‘ì„±ìž : ì´í˜„ì„±
 
-ÇÁ·Î±×·¥ ÀÛ¼ºÀÏÁö : 2022³â 03¿ù 22ÀÏ
+í”„ë¡œê·¸ëž¨ ìž‘ì„±ì¼ì§€ : 2022ë…„ 03ì›” 22ì¼
 
 **/
-
+ 
 
 #include <stdio.h>
 int main()
