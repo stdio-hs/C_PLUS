@@ -1,8 +1,13 @@
 /**
-ÆÄÀÏ¸í: PRACTICE_10
-ÇÁ·Î±×·¥ÀÇ ¸ñÀû ¹× ±âº»±â´É : Á¤¼öÀÇ ÃÖ´ë°ª, ÃÖ¼Ò°ª, overflow, underflow
-ÇÁ·Î±×·¥ ÀÛ¼ºÀÚ : ÀÌÇö¼º
-ÇÁ·Î±×·¥ ÀÛ¼ºÀÏÁö : 2022³â 03¿ù 10ÀÏ
+
+íŒŒì¼ëª…: PRACTICE_10
+
+í”„ë¡œê·¸ëž¨ì˜ ëª©ì  ë° ê¸°ë³¸ê¸°ëŠ¥ : ì •ìˆ˜ì˜ ìµœëŒ€ê°’, ìµœì†Œê°’, overflow, underflow
+
+í”„ë¡œê·¸ëž¨ ìž‘ì„±ìž : ì´í˜„ì„±
+
+í”„ë¡œê·¸ëž¨ ìž‘ì„±ì¼ì§€ : 2022ë…„ 03ì›” 10ì¼
+
 **/
 
 #include <stdio.h>
