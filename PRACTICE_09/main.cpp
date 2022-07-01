@@ -1,8 +1,13 @@
 /**
-ÆÄÀÏ¸í: PRACTICE_09
-ÇÁ·Î±×·¥ÀÇ ¸ñÀû ¹× ±âº»±â´É : 16Áø¼ö µ¥ÀÌÅÍÀÇ 10Áø¼ö, 8Áø¼ö, 2Áø¼ö Ç¥Çö°ú Bit-wise °è»ê
-ÇÁ·Î±×·¥ ÀÛ¼ºÀÚ : ÀÌÇö¼º
-ÇÁ·Î±×·¥ ÀÛ¼ºÀÏÁö : 2022³â 03¿ù 10ÀÏ
+
+íŒŒì¼ëª…: PRACTICE_09
+
+í”„ë¡œê·¸ëž¨ì˜ ëª©ì  ë° ê¸°ë³¸ê¸°ëŠ¥ : 16ì§„ìˆ˜ ë°ì´í„°ì˜ 10ì§„ìˆ˜, 8ì§„ìˆ˜, 2ì§„ìˆ˜ í‘œí˜„ê³¼ Bit-wise ê³„ì‚°
+
+í”„ë¡œê·¸ëž¨ ìž‘ì„±ìž : ì´í˜„ì„±
+
+í”„ë¡œê·¸ëž¨ ìž‘ì„±ì¼ì§€ : 2022ë…„ 03ì›” 10ì¼
+
 **/
 
 #include<stdio.h>
@@ -12,9 +17,9 @@ enum BinOp_Type { BIT_AND, BIT_OR, BIT_XOR, BIT_SL, BIT_SR, BIT_NOT };
 const char* bop_sign[] = { "&", "|", "^", "<<", ">>", "~" };
 void  printInt_Bits(int d);
 
-void printIntOper_Bits(BinOp_Type bop, int x, int y, int z) // enumÇÔ¼ö¸¦ ÀÌ¿ëÇÑ 32Áø¼ö Ãâ·Â _ ½ÇÁ¦ µ¡¼ÀÀÌ ¾Æ´Ñ, PrintInt_Bit ÇÔ¼ö È°¿ëÇÏ¿© Ãâ·Â
+void printIntOper_Bits(BinOp_Type bop, int x, int y, int z) // enumí•¨ìˆ˜ë¥¼ ì´ìš©í•œ 32ì§„ìˆ˜ ì¶œë ¥ _ ì‹¤ì œ ë§ì…ˆì´ ì•„ë‹Œ, PrintInt_Bit í•¨ìˆ˜ í™œìš©í•˜ì—¬ ì¶œë ¥
 {
-	if (bop != BIT_NOT) // BIT_NOT Àº Ãâ·Â ¾ç½ÄÀÌ ´Ù¸£±â ¶§¹®¿¡ IF ``		 ¹®À» È°¿ëÇÏ¿© BIT_NOT Á¦¿Ü,
+	if (bop != BIT_NOT) // BIT_NOT ì€ ì¶œë ¥ ì–‘ì‹ì´ ë‹¤ë¥´ê¸° ë•Œë¬¸ì— IF ``		 ë¬¸ì„ í™œìš©í•˜ì—¬ BIT_NOT ì œì™¸,
 	{
 		printf("    "); printInt_Bits(x); printf("\n");
 		printf(" %2s ", bop_sign[bop]); printInt_Bits(y); printf("\n");
@@ -22,7 +27,7 @@ void printIntOper_Bits(BinOp_Type bop, int x, int y, int z) // enumÇÔ¼ö¸¦ ÀÌ¿ëÇÑ
 		printf("    "); printInt_Bits(z); printf("\n");
 
 	}
-	else // BIT_NOTÀ» À§ÇÑ ¾ç½Ä
+	else // BIT_NOTì„ ìœ„í•œ ì–‘ì‹
 	{
 		printf(" %2s ", bop_sign[bop]); printInt_Bits(y); printf("\n");
 		printf(" -----------------------------------------------------------------------\n");
@@ -31,13 +36,13 @@ void printIntOper_Bits(BinOp_Type bop, int x, int y, int z) // enumÇÔ¼ö¸¦ ÀÌ¿ëÇÑ
 
 }
 
-void printInt_Bits(int d) // Á÷Á¢ ¸¸µé¾î º» ÀÀ¿ë CODE
+void printInt_Bits(int d) // ì§ì ‘ ë§Œë“¤ì–´ ë³¸ ì‘ìš© CODE
 {
 	unsigned long bit;
 
 	for (int n = (NUM_BITS_INT - 1); n >= 0; n--)
 	{
-		bit = (d & (BIT_MASK << n)) && 1; // ÀÔ·Â°ªÀ» ÀÌµ¿½ÃÅ°´Â °ÍÀÌ ¾Æ´Ñ, BIT_MASK ¸¦ ÀÌµ¿½ÃÄÑ && ÇÔ¼ö È°¿ë
+		bit = (d & (BIT_MASK << n)) && 1; // ìž…ë ¥ê°’ì„ ì´ë™ì‹œí‚¤ëŠ” ê²ƒì´ ì•„ë‹Œ, BIT_MASK ë¥¼ ì´ë™ì‹œì¼œ && í•¨ìˆ˜ í™œìš©
 		printf("%d", bit);
 
 		if ((n % 8) == 0)
@@ -47,17 +52,17 @@ void printInt_Bits(int d) // Á÷Á¢ ¸¸µé¾î º» ÀÀ¿ë CODE
 
 int main()
 {
-	int x_1, x_2; // 16Áø¼ö Á¤¼öÇü ÀÔ·Â°ª
-	int c; // calculated _ °è»ê °á°ú °ª
+	int x_1, x_2; // 16ì§„ìˆ˜ ì •ìˆ˜í˜• ìž…ë ¥ê°’
+	int c; // calculated _ ê³„ì‚° ê²°ê³¼ ê°’
 
 	printf("Input first hexadecimal numbers in (0x00000 ~ 0xFFFFF) : ");
-	scanf_s("%x", &x_1); //16Áø¼ö Á¤¼öÇü ÀÔ·Â°ª _ Ã¹¹øÂ°
+	scanf_s("%x", &x_1); //16ì§„ìˆ˜ ì •ìˆ˜í˜• ìž…ë ¥ê°’ _ ì²«ë²ˆì§¸
 	printf(" x_1 = %#010x = ( in decimal ) %#10d = ( in octal ) %o \n   =", x_1, x_1, x_1, x_1);
 	printInt_Bits(x_1); printf("\n");
 	printf("\n");
 
 	printf("Input second hexadecimal numbers in (0x00000 ~ 0xFFFFF) : ");
-	scanf_s("%x", &x_2); //16Áø¼ö Á¤¼öÇü ÀÔ·Â°ª _ µÎ¹øÂ°
+	scanf_s("%x", &x_2); //16ì§„ìˆ˜ ì •ìˆ˜í˜• ìž…ë ¥ê°’ _ ë‘ë²ˆì§¸
 	printf(" x_2 = %#010x = ( in decimal ) %#10d = ( in octal ) %o \n   =", x_2, x_2, x_2, x_2);
 	printInt_Bits(x_2); printf("\n\n");
 
