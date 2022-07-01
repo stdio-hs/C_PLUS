@@ -1,8 +1,13 @@
 /**
-ÆÄÀÏ¸í: PRACTICE_04
-ÇÁ·Î±×·¥ÀÇ ¸ñÀû ¹× ±âº»±â´É : ÇÐ»ý ¼ºÀû µ¥ÀÌÅÍ¸¦ (10°³) ÀÔ·Â ¹ÞÀº ÈÄ, ÃÖ´ë°ª ÃÖ¼Ò°ª, Æò±Õ°ªÀ» ±¸ÇÏ´Â ÇÁ·Î±×·¥ÀÔ´Ï´Ù.
-ÇÁ·Î±×·¥ ÀÛ¼ºÀÚ : ÀÌÇö¼º
-ÇÁ·Î±×·¥ ÀÛ¼ºÀÏÁö : 2022³â 03¿ù 07ÀÏ
+
+íŒŒì¼ëª…: PRACTICE_04
+
+í”„ë¡œê·¸ëž¨ì˜ ëª©ì  ë° ê¸°ë³¸ê¸°ëŠ¥ : í•™ìƒ ì„±ì  ë°ì´í„°ë¥¼ (10ê°œ) ìž…ë ¥ ë°›ì€ í›„, ìµœëŒ€ê°’ ìµœì†Œê°’, í‰ê· ê°’ì„ êµ¬í•˜ëŠ” í”„ë¡œê·¸ëž¨ìž…ë‹ˆë‹¤.
+
+í”„ë¡œê·¸ëž¨ ìž‘ì„±ìž : ì´í˜„ì„±
+
+í”„ë¡œê·¸ëž¨ ìž‘ì„±ì¼ì§€ : 2022ë…„ 03ì›” 07ì¼
+
 **/
 
 #include <stdio.h>
@@ -18,7 +23,7 @@ int main()
 
 	for (i = 0; i < 10; i++)
 	{
-		printf("%d ¹øÂ° ÇÐ»ýÀÇ ¼ºÀûÀ» ÀÔ·ÂÇÏ½Ã¿À. : ", i+1);
+		printf("%d ë²ˆì§¸ í•™ìƒì˜ ì„±ì ì„ ìž…ë ¥í•˜ì‹œì˜¤. : ", i+1);
 		scanf_s("%d", &arr[i]);
 	}
 
@@ -29,7 +34,7 @@ int main()
 		if (arr[i] > max)
 			max = arr[i];
 	}
-	printf("°¡Àå ¿ì¼öÇÑ ¼ºÀû : %d\n", max);
+	printf("ê°€ìž¥ ìš°ìˆ˜í•œ ì„±ì  : %d\n", max);
 
 
 	min = 100;
@@ -38,7 +43,7 @@ int main()
 		if (arr[i] < min)
 			min = arr[i];
 	}
-	printf("°¡Àå ³·Àº ¼ºÀû : %d\n", min);
+	printf("ê°€ìž¥ ë‚®ì€ ì„±ì  : %d\n", min);
 
 
 	sum = 0;
@@ -47,7 +52,7 @@ int main()
 		sum += arr[i];
 	}
 	average = sum / 10;
-	printf("Æò±Õ ¼ºÀû : %.lf", average);
+	printf("í‰ê·  ì„±ì  : %.lf", average);
 
 
 	return 0;
