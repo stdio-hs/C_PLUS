@@ -1,8 +1,13 @@
 /**
-ÆÄÀÏ¸í: PRACTICE_03
-ÇÁ·Î±×·¥ÀÇ ¸ñÀû ¹× ±âº»±â´É : ¿ø±âµÕÀÇ (¹ÝÁö¸§/³ôÀÌ)¸¦ ÀÔ·Â, ¿ø±âµÕÀÇ (ºÎÇÇ/°Ñ³ÐÀÌ) Ãâ·Â 
-ÇÁ·Î±×·¥ ÀÛ¼ºÀÚ : ÀÌÇö¼º
-ÇÁ·Î±×·¥ ÀÛ¼ºÀÏÁö : 2022³â 03¿ù 07ÀÏ
+
+íŒŒì¼ëª…: PRACTICE_03
+
+í”„ë¡œê·¸ëž¨ì˜ ëª©ì  ë° ê¸°ë³¸ê¸°ëŠ¥ : ì›ê¸°ë‘¥ì˜ (ë°˜ì§€ë¦„/ë†’ì´)ë¥¼ ìž…ë ¥, ì›ê¸°ë‘¥ì˜ (ë¶€í”¼/ê²‰ë„“ì´) ì¶œë ¥ 
+
+í”„ë¡œê·¸ëž¨ ìž‘ì„±ìž : ì´í˜„ì„±
+
+í”„ë¡œê·¸ëž¨ ìž‘ì„±ì¼ì§€ : 2022ë…„ 03ì›” 07ì¼
+
 **/
 
 #include <stdio.h>
@@ -10,19 +15,19 @@
 
 int main()
 {
-	int r, h; // radius¹ÝÁö¸§ height³ôÀÌ
-	double v, sa; // volumeºÎÇÇ surface area°Ñ³ÐÀÌ
+	int r, h; // radiusë°˜ì§€ë¦„ heightë†’ì´
+	double v, sa; // volumeë¶€í”¼ surface areaê²‰ë„“ì´
 
-	printf("¿ø±âµÕÀÇ ¹ÝÁö¸§À» ÀÔ·ÂÇÏ½Ã¿À : ");
+	printf("ì›ê¸°ë‘¥ì˜ ë°˜ì§€ë¦„ì„ ìž…ë ¥í•˜ì‹œì˜¤ : ");
 	scanf_s("%d", &r);
-	printf("¿ø±âµÕÀÇ ³ôÀÌ¸¦ ÀÔ·ÂÇÏ½Ã¿À : ");
+	printf("ì›ê¸°ë‘¥ì˜ ë†’ì´ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤ : ");
 	scanf_s("%d", &h);
 
-	v = r * r * PI * h; // ºÎÇÇ
-	sa = (2 * r * r * PI) + (2 * PI * r * h); // °Ñ³ÐÀÌ
+	v = r * r * PI * h; // ë¶€í”¼
+	sa = (2 * r * r * PI) + (2 * PI * r * h); // ê²‰ë„“ì´
 
-	printf("¿ø±âµÕÀÇ ºÎÇÇ´Â %.2lf ÀÔ´Ï´Ù.\n", v);
-	printf("¿ø±âµÕÀÇ °Ñ³ÐÀÌ´Â %.2lf ÀÔ´Ï´Ù.", sa);
+	printf("ì›ê¸°ë‘¥ì˜ ë¶€í”¼ëŠ” %.2lf ìž…ë‹ˆë‹¤.\n", v);
+	printf("ì›ê¸°ë‘¥ì˜ ê²‰ë„“ì´ëŠ” %.2lf ìž…ë‹ˆë‹¤.", sa);
 
 	return 0;
 }
