@@ -22,5 +22,5 @@
  - PRACTICE_08 : Basic Date Calcualtion // ( 날짜 _ 몇번째 날 / 요일 ) 
  - PRACTICE_09 : Bitwise Calcualtion // ( 16진수 데이터 표현 변환 / Bit-wise 계산 )
  - PRACTICE_10 : Integer Overflow Underflow // ( 정수 _ 최대값 / 최소값 / Overflow / Underflow )
- - PRACTICE_11 : 
- - PRACTICE_12 : 
+ - PRACTICE_11 : ASCII CODE Distinguish // ( 아스키코드 판별 _ 문자 / 숫자 / 자음 / 모음 / 기호 ) 
+ - PRACTICE_12 : Calendar Output // ( 캘린더 출력 _ 윤년고려 )
