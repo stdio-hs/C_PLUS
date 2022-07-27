@@ -1,45 +1,45 @@
 /*
 
-ÆÄÀÏ¸í : PL22_HW04_1_21912240_ÀÌÇö¼º
+íŒŒì¼ëª… : PRACTICE_15
 
-ÇÁ·Î±×·¥ÀÇ ¸ñÀû ¹× ±âº»±â´É : (Àç±ÍÇÔ¼ö&¹İº¹¹®)±¸Á¶À¸·Î °ÅµìÁ¦°öÀ» °è»êÇÏ¸ç °É¸° ½Ã°£ ÃøÁ¤
+í”„ë¡œê·¸ë¨ì˜ ëª©ì  ë° ê¸°ë³¸ê¸°ëŠ¥ : (ì¬ê·€í•¨ìˆ˜&ë°˜ë³µë¬¸)êµ¬ì¡°ìœ¼ë¡œ ê±°ë“­ì œê³±ì„ ê³„ì‚°í•˜ë©° ê±¸ë¦° ì‹œê°„ ì¸¡ì •
 
-ÇÁ·Î±×·¥ ÀÛ¼ºÀÚ : ÀÌÇö¼º
+í”„ë¡œê·¸ë¨ ì‘ì„±ì : ì´í˜„ì„±
 
-ÇÁ·Î±×·¥ ÀÛ¼ºÀÏÁö : 2022³â 3¿ù 28ÀÏ
+í”„ë¡œê·¸ë¨ ì‘ì„±ì¼ì§€ : 2022ë…„ 3ì›” 28ì¼
 
 */
 #include<stdio.h> 
-#include<time.h> // Ãß°¡ÇØÁà¾ß ÇÒ °Í
-#include<WIndows.h> // Ãß°¡ÇØÁà¾ß ÇÒ °Í
+#include<time.h> // ì¶”ê°€í•´ì¤˜ì•¼ í•  ê²ƒ
+#include<WIndows.h> // ì¶”ê°€í•´ì¤˜ì•¼ í•  ê²ƒ
 
-double powerRecur(double base, int exponent); // ¹İº¹¹® ±¸Á¶
-double powerIter(double base, int exponent); // Àç±ÍÇÔ¼ö ±¸Á¶
+double powerRecur(double base, int exponent); // ë°˜ë³µë¬¸ êµ¬ì¡°
+double powerIter(double base, int exponent); // ì¬ê·€í•¨ìˆ˜ êµ¬ì¡°
 
 int main(void)
 {
-    time_t t_before, t_after; // ÃøÁ¤½ÃÀÛ, ÃøÁ¤³¡ _ ÃÊ
-    double t_diff; // ½Ã°£ Â÷ÀÌ 
-    LARGE_INTEGER freq, t1, t2; // °í¼º´É_ÃøÁ¤½ÃÀÛ, °í¼º´É_ÃøÁ¤³¡ _ ¹Ğ¸®ÃÊ
-    LONGLONG t_diff_pc; // °í¼º´É_½Ã°£Â÷ÀÌ
+    time_t t_before, t_after; // ì¸¡ì •ì‹œì‘, ì¸¡ì •ë _ ì´ˆ
+    double t_diff; // ì‹œê°„ ì°¨ì´ 
+    LARGE_INTEGER freq, t1, t2; // ê³ ì„±ëŠ¥_ì¸¡ì •ì‹œì‘, ê³ ì„±ëŠ¥_ì¸¡ì •ë _ ë°€ë¦¬ì´ˆ
+    LONGLONG t_diff_pc; // ê³ ì„±ëŠ¥_ì‹œê°„ì°¨ì´
     
-    double t_elapse_ms; // ½Ã°£°è»ê
+    double t_elapse_ms; // ì‹œê°„ê³„ì‚°
 
     double result_i, result_r;
     double base = 1.015;
 
-    QueryPerformanceFrequency(&freq); // ¼±¾ğ
+    QueryPerformanceFrequency(&freq); // ì„ ì–¸
     for (int expo = 1000; expo <= 4000; expo += 1000)
     {
-        time(&t_before); // ÃøÁ¤½ÃÀÛ
-        QueryPerformanceCounter(&t1); // °í¼º´É_ÃøÁ¤½ÃÀÛ
+        time(&t_before); // ì¸¡ì •ì‹œì‘
+        QueryPerformanceCounter(&t1); // ê³ ì„±ëŠ¥_ì¸¡ì •ì‹œì‘
         result_i = powerIter(base, expo);
-        QueryPerformanceCounter(&t2); // °í¼º´É_ÃøÁ¤³¡
-        time(&t_after); // ÃøÁ¤³¡ 
-        t_diff = difftime(t_after, t_before); // ½Ã°£ Â÷ÀÌ
-        t_diff_pc = t2.QuadPart - t1.QuadPart; // °í¼º´É_½Ã°£Â÷ÀÌ
-        t_elapse_ms = ((double)t_diff_pc / (double)freq.QuadPart) * 10000; // ½Ã°£°è»ê
-        printf("PowerItera(1.015, %d) by iterative = %40.5lf, took (%3f) sec, (%10.2lf) milli-second\n", expo, result_i, t_diff, t_elapse_ms); // ÃÊ, ¹Ğ¸®ÃÊ
+        QueryPerformanceCounter(&t2); // ê³ ì„±ëŠ¥_ì¸¡ì •ë
+        time(&t_after); // ì¸¡ì •ë 
+        t_diff = difftime(t_after, t_before); // ì‹œê°„ ì°¨ì´
+        t_diff_pc = t2.QuadPart - t1.QuadPart; // ê³ ì„±ëŠ¥_ì‹œê°„ì°¨ì´
+        t_elapse_ms = ((double)t_diff_pc / (double)freq.QuadPart) * 10000; // ì‹œê°„ê³„ì‚°
+        printf("PowerItera(1.015, %d) by iterative = %40.5lf, took (%3f) sec, (%10.2lf) milli-second\n", expo, result_i, t_diff, t_elapse_ms); // ì´ˆ, ë°€ë¦¬ì´ˆ
 
         time(&t_before);
         QueryPerformanceCounter(&t1);
