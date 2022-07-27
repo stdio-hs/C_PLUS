@@ -28,6 +28,8 @@
  - PRACTICE_13 : Matrix Multiplication // ( 5*5 행렬 곱셈 ) 
  - PRACTICE_14 : Matrix Graph // ( 12 * 12 곱셈표 )
  - PRACTICE_15 : Recursive Function Time-Measurement // ( 재귀함수&반복문을 활용하여 거듭제곱 시간측정 )
- - PRACTICE_16 :
+ - PRACTICE_16 : Piano // ( 피아노 _ 3차원 배열 )
  - PRACTICE_17 :
+ - PRACTICE_18 :
+ - PRACTICE_19 :
 
