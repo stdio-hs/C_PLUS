@@ -30,7 +30,7 @@
  - PRACTICE_16 : Piano // ( 피아노 _ 3차원 배열 )
  - PRACTICE_17 : Piano_2 // ( 피아노 _ SWITCH문 활용 )
  - PRACTICE_18 : Star Drawing // ( 별로 다양한 도형 표현하기 )
- - PRACTICE_19 :
+ - PRACTICE_19 : Random Number Array // ( 난수배열출력 )
  - PRACTICE_20 :
  - PRACTICE_21 :
  - PRACTICE_22 :
