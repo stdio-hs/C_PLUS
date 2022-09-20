@@ -33,7 +33,7 @@
  - PRACTICE_19 : Random Number Array // ( 난수배열출력 )
  - PRACTICE_20 : Array Practice Collection // ( 다양한 배열 출력 연습 )
  - PRACTICE_21 : Sorting Practice // ( 다양한 정렬 연습 )
- - PRACTICE_22 :
+ - PRACTICE_22 : Sorting Time Test (small/big) // ( 다양한 정렬 시간 테스트 )
  - PRACTICE_23 : 
  - PRACTICE_24 :
 
