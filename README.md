@@ -38,6 +38,8 @@
  - PRACTICE_24 : Dynamic Memory Allocation & Matrix Calculatio // ( 2차원배열 동적메모리할다 & 연산 )
  - PRACTICE_25 : 
  - PRACTICE_26 :
+ - PRACTICE_27 : 
+ - PRACTICE_28 :
 
 
 
