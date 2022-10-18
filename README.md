@@ -37,7 +37,7 @@
  - PRACTICE_23 : Pointer Practice // ( call by value, call by pointer, call by reference )
  - PRACTICE_24 : Dynamic Memory Allocation & Matrix Calculatio (1) // ( 2차원배열 동적메모리할다 & 연산 )
  - PRACTICE_25 : Dynamic Memory Allocation & Matrix Calculatio (2) // ( 2차원배열 동적메모리할다 & 연산 )
- - PRACTICE_26 :
+ - PRACTICE_26 : Matrix Calculate // ( 행렬 계산 )
  - PRACTICE_27 : 
  - PRACTICE_28 :
 
