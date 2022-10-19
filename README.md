@@ -38,8 +38,11 @@
  - PRACTICE_24 : Dynamic Memory Allocation & Matrix Calculatio (1) // ( 2차원배열 동적메모리할다 & 연산 )
  - PRACTICE_25 : Dynamic Memory Allocation & Matrix Calculatio (2) // ( 2차원배열 동적메모리할다 & 연산 )
  - PRACTICE_26 : Matrix Calculate // ( 행렬 계산 )
- - PRACTICE_27 : 
+ - PRACTICE_27 : Randomize Student Information And Sorting // ( 학생정보를 랜던생성 후 정렬 )
  - PRACTICE_28 :
+ - PRACTICE_29 :
+ - PRACTICE_30 :
+ - PRACTICE_31 :
 
 
 
