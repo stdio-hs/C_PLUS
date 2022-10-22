@@ -40,7 +40,7 @@
  - PRACTICE_26 : Matrix Calculate // ( 행렬 계산 )
  - PRACTICE_27 : Randomize Student Information And Sorting // ( 학생정보를 랜던생성 후 정렬 )
  - PRACTICE_28 : Complex Number Calculate & Sorting // ( 복소수 연산 및 정렬 )
- - PRACTICE_29 :
+ - PRACTICE_29 : Time ( Increase / Difference / Sorting ) // ( 시간증감, 시간차이, 시간정렬 )
  - PRACTICE_30 :
  - PRACTICE_31 :
 
