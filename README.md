@@ -43,6 +43,8 @@
  - PRACTICE_29 : Time ( Increase / Difference / Sorting ) // ( 시간증감, 시간차이, 시간정렬 )
  - PRACTICE_30 :
  - PRACTICE_31 :
+ - PRACTICE_32 :
+ - PRACTICE_33 :
 
 
 
