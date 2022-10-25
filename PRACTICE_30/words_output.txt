@@ -1,0 +1,17 @@
+Input word list : 
+( 0)th-word : one             (word_length: 3)
+( 1)th-word : two             (word_length: 3)
+( 2)th-word : three           (word_length: 5)
+( 3)th-word : four            (word_length: 4)
+( 4)th-word : five            (word_length: 4)
+( 5)th-word : six             (word_length: 3)
+( 6)th-word : seven           (word_length: 5)
+( 7)th-word : eight           (word_length: 5)
+( 8)th-word : nine            (word_length: 4)
+( 9)th-word : ten             (word_length: 3)
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Sorted word list : 
+eight          five           four           nine           one            
+seven          six            ten            three          two            
