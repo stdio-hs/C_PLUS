@@ -41,7 +41,7 @@
  - PRACTICE_27 : Randomize Student Information And Sorting // ( 학생정보를 랜던생성 후 정렬 )
  - PRACTICE_28 : Complex Number Calculate & Sorting // ( 복소수 연산 및 정렬 )
  - PRACTICE_29 : Time ( Increase / Difference / Sorting ) // ( 시간증감, 시간차이, 시간정렬 )
- - PRACTICE_30 :
+ - PRACTICE_30 : Convert ASCII Code To Hexadecimal // ( 아스키코드를 입력받아 16진수로 변환 )
  - PRACTICE_31 :
  - PRACTICE_32 :
  - PRACTICE_33 :
