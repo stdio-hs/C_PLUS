@@ -43,7 +43,7 @@
  - PRACTICE_29 : Time ( Increase / Difference / Sorting ) // ( 시간증감, 시간차이, 시간정렬 )
  - PRACTICE_30 : Convert ASCII Code To Hexadecimal // ( 아스키코드를 입력받아 16진수로 변환 )
  - PRACTICE_31 : Hexadecimal To Decimal // ( 16진수 >> 10진수 >> 16진수 )
- - PRACTICE_32 :
+ - PRACTICE_32 : Encryption & Decryption Practice ( 사진을 코드 변환 / 암호화 복호화 연습 )
  - PRACTICE_33 :
 
 
