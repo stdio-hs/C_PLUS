@@ -1,27 +1,27 @@
 #ifndef EVENT_H
 #define EVENT_H
-#pragma warning(disable: 4996) // scanf¿À·ù ¾È¶ß°Ô ÇÏ´Â pragmaÁ¤ÀÇ 
+#pragma warning(disable: 4996) // scanfì˜¤ë¥˜ ì•ˆëœ¨ê²Œ í•˜ëŠ” pragmaì •ì˜ 
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <stdbool.h>
 
-#define EVENT_PER_LINE 1// ÅØ½ºÆ®ÆÄÀÏ Ãâ·Â _ ÁÙ¹Ù²Ş °ü·Ã
+#define EVENT_PER_LINE 1// í…ìŠ¤íŠ¸íŒŒì¼ ì¶œë ¥ _ ì¤„ë°”ê¿ˆ ê´€ë ¨
 
 
-// Event ±¸Á¶Ã¼ ¼±¾ğ
+// Event êµ¬ì¡°ì²´ ì„ ì–¸
 typedef struct EVENTS
 {
-	int event_no; // ÀÌº¥Æ® ³Ñ¹ö
-	int event_gen_addr; // ÀÌº¥Æ® »ı¼º ÁÖ¼Ò
-	int event_pri; // ÀÌº¥Æ® ¿ì¼±¼øÀ§
+	int event_no; // ì´ë²¤íŠ¸ ë„˜ë²„
+	int event_gen_addr; // ì´ë²¤íŠ¸ ìƒì„± ì£¼ì†Œ
+	int event_pri; // ì´ë²¤íŠ¸ ìš°ì„ ìˆœìœ„
 } Event;
 
 
-Event* genEvent(Event* pEv, int ev_no, int ev_genID, int ev_pri); // ÀÌº¥Æ® »ı¼º
-void initEvent(Event* pEv, int ev_no, int ev_genID, int ev_pri); // ÀÌº¥Æ® ÃÊ±â°ª set
-void printEvent(Event* pEv); // ÀÌº¥Æ® ½ÇÇàÃ¢ Ãâ·Â
-void fprintEvent(FILE* fout, Event* pEv); // ÀÌº¥Æ® ÅØ½ºÆ®ÆÄÀÏ Ãâ·Â
+Event* genEvent(Event* pEv, int ev_no, int ev_genID, int ev_pri); // ì´ë²¤íŠ¸ ìƒì„±
+void initEvent(Event* pEv, int ev_no, int ev_genID, int ev_pri); // ì´ë²¤íŠ¸ ì´ˆê¸°ê°’ set
+void printEvent(Event* pEv); // ì´ë²¤íŠ¸ ì‹¤í–‰ì°½ ì¶œë ¥
+void fprintEvent(FILE* fout, Event* pEv); // ì´ë²¤íŠ¸ í…ìŠ¤íŠ¸íŒŒì¼ ì¶œë ¥
 
-#endif 
+#endif  
