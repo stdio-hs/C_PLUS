@@ -10,3 +10,4 @@ void dumpBinaryFile(FILE* fin, FILE* fout);
 
 #endif // !HANDLINGBINARYFILE_H
 
+ 
